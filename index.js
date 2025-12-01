@@ -20,6 +20,16 @@ console.log (typeof age);
 
 console.log (age+5);
 
+
+/*INFLICTOR HAS A CIRCULAR LAND WITH RADIUS OF 89M, Lets find its area*/
+
+const pi = 3.14159;
+let radius = 89;
+
+const landArea = `${pi*radius**2} metres`;
+
+console.log (landArea);
+
 const isAdult = true;
 console.log (typeof isAdult);
 
